@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="form-group">
+        <div uploader="uploader">
+
+        <span class="btn btn-default fileinput-button">
+            <span>Select File</span>
+            <input id="uploader" type="file" nv-file-select uploader="uploader">
+        </span>
+        </div>
+    </div>
+
+    <button ng-click="onlick()">Upload</button>
+
+    <div ng-repeat="word in words">{word}</div>
+
+    <img ng-src="hardcode_url"/>
+</div>
