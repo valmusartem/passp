@@ -21,6 +21,7 @@ app.controller('HomeController', ['$scope', 'FileUploader',
 
         $scope.uploader.onCompleteItem = function(item, response, status, headers) {
             $scope.words = response;
+			$scope.imgPath = "http://localhost:8080/static_content/result.jpg";
         };
 
         $scope.onlick = function() {
