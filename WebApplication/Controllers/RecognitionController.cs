@@ -11,7 +11,7 @@ namespace WebApplication.Controllers
     public class RecognitionController : ApiController
     {
         private const string TempPath = @"C:\Users\Artem\Desktop\RecognitionOfPassports1\RecognitionOfPassports\data\temp.jpg";
-        private const string ResultImgPath = @"C:\Users\Artem\Desktop\RecognitionOfPassports1\RecognitionOfPassports\data\result.jpg";
+        private const string ResultImgPath = @"C:\Users\Artem\Desktop\passp\website\public\static_content\result.jpg";
         private const string RecognitionResult = @"C:\Users\Artem\Desktop\RecognitionOfPassports1\RecognitionOfPassports\data\result.txt";
 
         [Route("api/recognizeImage"), HttpPost]
